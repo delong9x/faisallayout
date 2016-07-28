@@ -1,0 +1,203 @@
+body{ 
+	font-family: "adobe garamond pro";
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.main {
+	background: #f2f2f2;
+}
+
+.banner img{
+	width: 100%;
+	height: auto;
+	padding: 0 0 148px 0;
+}
+
+.court-wrap-content {
+	text-align: center;
+}
+
+.court-title-mansion {
+	font-size: 26pt;
+	font-weight: 400;
+	padding: 0 0 42px 0;
+	color: #fff;
+	width: 344px;
+    margin: auto; 
+    color: #ae966e;
+}
+
+.court-content-hr {
+	padding: 0 0 42px 0;
+}
+
+.court-title-content {
+	font-size: 11.99pt;
+	font-weight: 600;
+	font-style: italic;
+	padding: 0 0 54px 0;
+	color: #949392;
+	text-align: center;
+	width: 338px;
+    margin: auto;
+}
+
+.court-content-wrap {
+	width: 315px;
+    margin: auto;
+}
+
+.court-paragraph-top {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 36px 0;
+	color: #949392;
+}
+
+.court-paragraph-center {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 162px 0;
+	color: #949392;
+}
+
+
+.grid-content {
+	padding: 0;
+}
+
+.bg-grallery {
+	position: absolute;
+	background: rgba(16,33,24,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.item-grallery {
+	padding: 0;
+	position: relative;
+}
+
+.item-grallery img {
+	width: 100%;
+	height: auto;
+}
+
+.text-history {
+	color: #fff;
+	position: absolute;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.text-arch {
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.text-mem {
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.text-acco {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.bg-grallery:hover {
+	background: rgba(174,150,110, 0.4);
+}
+
+.wrap-grallery {
+	margin: 0;
+}
+/*----------------------------------------*/
+.court-pagenation_1 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.court-pagenation_1 .left,
+.court-pagenation_1 .right {
+    padding: 0;
+    background: none;
+    border: none;
+}
+.court-pagenation_1 .right  {
+    position: relative;
+    top: 0px;
+   left:-5px;
+    right: right;
+}
+.court-pagenation_1 .left:focus,
+.court-pagenation_1 .right:focus {
+    outline: none;
+}
+
+.slider .slider-item img {
+    width: 100%;
+    padding: 0 5px;
+    height: auto;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+   .court-title-content {
+      width: 264px;
+   }
+
+   .court-content-wrap {
+      width: 264px;
+   }
+ }
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.court-title-content {
+	    width: 264px;
+	}
+
+	.court-content-wrap {
+	    width: 264px;
+	 }
+	 
+	.court-title-mansion {
+		width: 297px;	
+	}
+}

@@ -1,0 +1,169 @@
+body{ 
+	font-family: "adobe garamond pro";
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.main {
+	background: #242493;
+}
+
+.banner img{
+	width: 100%;
+	height: auto;
+	padding: 0 0 148px 0;
+}
+
+.wrap-content {
+	text-align: center;
+}
+
+.title-mansion {
+	font-size: 26pt;
+	font-weight: 400;
+	padding: 0 0 42px 0;
+	color: #fff;
+	width: 218px;
+    margin: auto; 
+}
+
+.content-hr {
+	padding: 0 0 42px 0;
+}
+
+.title-content {
+	font-size: 11.99pt;
+	font-weight: 600;
+	font-style: italic;
+	padding: 0 0 54px 0;
+	color: #fff;
+}
+.content-wrap {
+	width: 227px;
+	
+    margin: auto;
+}
+
+.paragraph-top {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 36px 0;
+	color: #fff;
+}
+
+.paragraph-center {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 130px 0;
+	color: #fff;
+}
+
+
+.grid-content {
+	padding: 0;
+}
+
+.bg-grallery {
+	position: absolute;
+	background: rgba(16,33,24,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.item-grallery {
+	padding: 0;
+	position: relative;
+}
+
+.item-grallery img {
+	width: 100%;
+	height: auto;
+}
+
+.text-history {
+	color: #fff;
+	position: absolute;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.text-arch {
+	color: #fff;
+	position: absolute;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.text-mem {
+	color: #fff;
+	position: absolute;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.text-acco {
+	color: #fff;
+	position: absolute;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.bg-grallery:hover {
+	background: rgba(174,150,110, 0.4);
+}
+
+.wrap-grallery {
+	margin: 0;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	
+ }
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+ 	.text-history {
+	    top: 40%;
+	    left: 37%;
+	}
+	.text-arch {
+	    top: 40%;
+	    left: 30%;
+	}
+
+	.text-mem {
+		top: 40%;
+	    left: 37%;
+	}
+
+	.text-acco {
+		top: 40%;
+	    left: 37%;
+	}
+}

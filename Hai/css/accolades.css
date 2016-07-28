@@ -1,0 +1,209 @@
+body{ 
+	font-family: "adobe garamond pro";
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.acco-main {
+	background-color: #f2f2f2;
+}
+
+.acco-banner {
+	padding: 0 0 54px 0;
+}
+
+.acco-banner img {
+	width: 100%;
+	height: auto;
+}
+.wrap-company {
+	padding: 0 0 72px 0;
+}
+
+.wrap-company .col-md-3 {
+	text-align: center;
+} 
+
+.slick-slide {
+	padding: 0;
+}
+
+.slider div a>img{
+	width: 100%;
+	height: auto;
+}
+
+.acco-slider {
+	padding: 0 0 15px 0;
+}
+
+.acco-pagenation_1 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.acco-pagenation_1 .left,
+.acco-pagenation_1 .right {
+    padding: 0;
+    background: none;
+    border: none;
+}
+.acco-pagenation_1 .right  {
+    position: relative;
+    top: 0px;
+   left:-5px;
+    right: right;
+}
+.acco-pagenation_1 .left:focus,
+.acco-pagenation_1 .right:focus {
+    outline: none;
+}
+
+.acco-title-content {
+	text-align: center;
+	color: #2e3192;
+	font-size: 30pt;
+}
+
+.acco-content-top {
+	width: 752px;
+	margin: auto;
+	font-size: 8pt;
+	color: #949392;
+	padding: 0 0 80px 0;
+	text-align: center;
+}
+
+.title-company {
+	text-align: center;
+	padding: 0 0 66px 0;
+	color: #ae966e;
+	font-size: 24pt;
+}
+
+.paragraph-one {
+	color: #ae966e;
+	padding: 0 0 76px 68px;
+}
+
+.title-paragraph-one {
+	font-size: 17pt;
+}
+
+.content-paragraph-one ul {
+	padding: 0 0 0 14px;
+}
+
+.wrap-channel {
+	padding: 0 0 80px 0;
+}
+
+.wrap-channel .col-md-3 {
+	text-align: center;
+}
+
+.paragraph-two {
+	color: #ae966e;
+	padding: 0 0 64px 68px;
+}
+
+.title-paragraph-two {
+	font-size: 17pt;
+}
+
+.content-paragraph-two ul {
+	padding: 0 0 0 14px;
+}
+
+.paragraph-three {
+	color: #ae966e;
+	padding: 0 0 64px 68px;
+}
+
+.title-paragraph-three {
+	font-size: 17pt;
+}
+
+.content-paragraph-three ul {
+	padding: 0 0 0 14px;
+}
+
+.paragraph-fourth {
+	color: #ae966e;
+	padding: 0 0 90px 68px;
+}
+
+.title-paragraph-fourth {
+	font-size: 17pt;
+
+}
+
+.content-paragraph-fourth ul {
+	padding: 0 0 0 14px;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	.acco-content-top {
+   	 	width: 242px;
+	}
+
+	.wrap-company .row .col-md-3 {
+		padding: 0 0 30px 0;
+	}
+
+	.wrap-channel .row .col-md-3 {
+		padding: 0 0 30px 0;
+	}
+ }
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+ 	.acco-content-top {
+   	 	width: 242px;
+	}
+
+	.wrap-company .row .col-md-3 {
+		padding: 0 0 30px 0;
+	}
+
+	.wrap-channel .row .col-md-3 {
+		padding: 0 0 30px 0;
+	}
+
+	.paragraph-one {
+		padding: 0 0 0 15px;
+	}
+
+	.paragraph-two {
+		padding: 0 0 0 15px;
+	}
+
+	.paragraph-three {
+		padding: 0 0 0 15px;
+	}
+
+	.paragraph-fourth {
+		padding: 0 0 0 15px;
+	}
+}

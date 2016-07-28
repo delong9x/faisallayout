@@ -1,0 +1,193 @@
+body{ 
+	font-family: "adobe garamond pro";
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main .container {
+	max-width: 1090px;
+}
+
+.arch-main {
+	background-color: #f2f2f2;
+}
+
+.arch-banner {
+	padding: 0 0 70px 0;
+}
+
+.arch-banner img {
+	width: 100%;
+	height: auto;	
+}
+
+.arch-title-content {
+	text-align: center;
+	font-size: 24pt;
+	color: #ae966e;
+	padding: 0 0 28px 0;
+}
+
+.content-hr {
+	text-align: center;
+}
+
+.post-long {
+	padding: 0 0 76px 0;
+}
+
+.arch-title-paragraph-top {
+	font-size: 11.99pt;
+	font-style: italic;
+	color: #949392;
+	padding: 0 0 30px 0;
+}
+
+.arch-title-paragraph-bottom {
+	font-size: 8pt;
+	color: #949392;
+}
+
+.arch-title-paragraph-bottom p {
+	padding: 0 0 40px 0;
+}
+
+.wrap-short {
+	padding: 0 0 110px 0;
+}
+
+.arch-content {
+	color: #949392;
+	font-size: 8pt;
+	font-weight: 400;
+}
+
+.arch-content p {
+	padding: 0 0 40px 0;
+}
+
+.arch-post-image-long img {
+	width: 100%;
+	height: auto;
+}
+
+.arch-post-image-short img {
+	width: 100%;
+	height: auto;
+}
+
+.text-content {
+	float: left;
+}
+
+.wrap-arrow {
+	text-align: center;
+	padding: 0 0 42px 0;
+}
+
+.arrow-left {
+	position: relative;
+	top: 30px;
+}
+
+.arrow-right {
+	position: relative;
+	top: 0px;
+	left: 26px;
+}
+
+.arch-wrap-slider{
+	padding: 0 0 238px 0;
+}
+
+.arch-item-grallery {
+	padding: 0;
+	position: relative;
+}
+
+.arch-item-grallery img {
+	width: 100%;
+	height: auto;
+}
+
+.arch-bg-grallery {
+	position: absolute;
+	background: rgba(16,33,24,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.arch-text-stay {
+	color: #fff;
+	position: absolute;
+	font-size: 14.66pt;
+	top: 44%;
+	left: 44%;
+}
+
+.arch-text-mem {
+	color: #fff;
+	position: absolute;
+	font-size: 14.66pt;
+	top: 44%;
+	left: 44%;
+}
+
+.arch-text-acco {
+	color: #fff;
+	position: absolute;
+	font-size: 14.66pt;
+	top: 44%;
+	left: 44%;
+}
+
+.arch-bg-grallery:hover {
+	background: rgba(174,150,110, 0.4);
+}
+
+/*----------------------------------*/
+.arch-pagenation_1 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.arch-pagenation_1 .left,
+.arch-pagenation_1 .right {
+    padding: 0;
+    background: none;
+    border: none;
+}
+.arch-pagenation_1 .right  {
+    position: relative;
+    top: 0px;
+   left:-5px;
+    right: right;
+}
+.arch-pagenation_1 .left:focus,
+.arch-pagenation_1 .right:focus {
+    outline: none;
+}
+
+.slider .slider-item img {
+    width: 100%;
+    padding: 0 5px;
+    height: auto;
+}
+
+.ui-icon-loading {
+    background: url(http://code.jquery.com/mobile/1.1.0-rc.1/images/ajax-loader.png);
+    background-size: 46px 46px;
+    width:46px;
+    height:46px;
+    -webkit-transform: rotate(360deg);
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes spin {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
