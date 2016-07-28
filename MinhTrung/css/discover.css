@@ -1,0 +1,195 @@
+.discover-img img{
+	width: 100%;
+}
+.discover-content{
+	width: 100%;
+	text-align: center;
+	background-color: #833e68;
+	padding-bottom: 60px;
+	margin-bottom: 70px;
+}
+.discover-content .dis-title{
+	padding-top: 80px;
+	margin-bottom: 35px;
+}
+.discover-content .under{
+	margin-bottom: 60px;
+}
+.discover-content .dis-title h2{
+	margin: 0;
+	font-size: 24pt;
+	color: #fff;
+}
+.dis-content p{
+	font-size: 8pt;
+	color: #cccccc;
+	width: 792px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.discover-info{
+	width: 100%;
+	
+	padding-bottom: 60px;
+}
+.discover-info .dis-title{
+	margin-bottom: 94px;
+	text-align: center;
+}
+.discover-info .dis-title h2{
+	color: #ae966e;
+	margin: 0;
+	font-size: 24pt;
+}
+.discover-info .dis-titlechild{
+	margin-bottom: 20px;
+}
+.discover-info .dis-titlechild h3{
+	font-size: 16pt;
+	color: #ae966e;
+	text-align: left;
+	margin: 0;
+}
+.discover-info .under{
+	margin-bottom: 20px;
+}
+.discover-info .disinfo-content{
+	margin-bottom: 50px;
+	text-align: justify;
+	color: #949392;
+}
+.disinfo-img div{
+	margin-bottom: 10px;
+}
+.disinfo-img img{
+	width: 100%;
+}
+.discover-info .disinfo-left{
+	margin-bottom: 60px;
+}
+/*img footer*/
+.daily-img .item-grallery {
+ padding: 0;
+ position: relative;
+}
+
+.daily-img .item-grallery img {
+ width: 100%;
+ height: auto;
+}
+
+.daily-img .text-history {
+ color: #fff;
+ position: absolute;
+ font-size: 21.7pt;
+ top: 44%;
+ left: 44%;
+}
+.daily-img .bg {
+ position: absolute;
+ background: rgba(16,33,24,0.5);
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+}
+.daily-img .item-grallery .bg:hover {
+ background: rgba(174,150,110, 0.4);
+}
+/*end img footer*/
+/*slider1*/
+.wrap-slider{
+	margin-bottom: 100px;
+}
+.pagenation_1, .pagenation_2, .pagenation_3 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.left, .left2, .left3,
+.right,.right2, .right3 {
+    padding: 0;
+    background: none;
+    border: none;
+}
+.right, .right2 ,.right3 {
+    position: relative;
+    top: 0px;
+   left:-5px;
+    right: right;
+}
+.left:focus, .left3:focus, .left2:focus,
+.right:focus, .right3:focus, .right2:focus
+ {
+    outline: none;
+}
+.slider .slider-item img {
+    width: 100%;
+    padding: 0 5px;
+    height: auto;
+    max-height: 530px;
+}
+/*end slider1*/
+/*end slider2*/
+.slider2 .slider-item img {
+    width: 100%;
+    padding: 0 5px;
+    height: auto;
+    max-height: 530px;
+}
+
+/*end slider2*/
+/*end slider3*/
+.slider3 .slider-item img {
+    width: 100%;
+    padding: 0 5px;
+    height: auto;
+    max-height: 530px;
+}
+
+/*end slider3*/
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+		width: 100%;
+	}
+	.dis-content p {
+		width: 100%;
+	}
+ }
+  /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+ 	.container{
+		width: 100%;
+	}
+	.dis-content p {
+		width: 100%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  .container{
+		width: 100%;
+	}
+	.dis-content p {
+		width: 100%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container{
+		width: 100%;
+	}
+	.dis-content p {
+		width: 100%;
+	}
+}

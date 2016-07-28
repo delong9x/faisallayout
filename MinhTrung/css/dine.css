@@ -1,0 +1,236 @@
+
+.dine {
+	background: #212736;
+}
+
+.dine .banner img{
+	width: 100%;
+	margin-bottom: 90px;
+}
+
+.dine .wrap-content {
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.dine .title-mansion {
+	font-size: 26pt;
+	font-weight: 400;
+	padding: 0 0 42px 0;
+	color: #fff;
+	width: 218px;
+    margin: auto; 
+}
+
+.dine .content-hr {
+	padding: 0 0 42px 0;
+}
+
+.dine .title-content {
+	font-size: 11.99pt;
+	font-style: italic;
+	padding: 0 0 40px 0;
+	color: #fff;
+	width: 480px;
+	margin: auto;
+}
+.dine .content-wrap {
+	width: 227px;
+    margin: auto;
+}
+
+.dine .paragraph-top {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 36px 0;
+	color: #fff;
+}
+
+.dine .paragraph-center {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 130px 0;
+	color: #fff;
+}
+
+
+.dine .grid-content {
+	padding: 0;
+}
+
+.dine .bg-grallery {
+	position: absolute;
+	background: rgba(16,33,24,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.dine .item-grallery {
+	padding: 0;
+	position: relative;
+}
+
+.dine .item-grallery img {
+	width: 100%;
+	height: auto;	
+}
+.dine .text-history img{
+	width: 200px;
+	margin:0 130px; 
+	padding: 10px;
+}
+.dine .text-history {
+	color: #fff;
+	position: absolute;
+	font-size: 21.7pt;
+	top: 35%;
+	left: 0%;
+	text-align: center;
+}
+
+.dine .text-arch {
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	font-size: 21.7pt;
+	top: 50%;
+	left: 42%;
+	text-align: center;
+}
+.dine .text-arch p{
+	font-size: 7pt;
+}
+.dine .text-arch h3{
+	font-size: 14.4pt;
+}
+.dine .text-mem {
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	font-size: 21.7pt;
+	top: 50%;
+	left: 42%;
+	text-align: center;
+}
+.dine .text-mem p{
+	font-size: 7pt;
+}
+.dine .text-mem h3{
+	font-size: 14.4pt;
+}
+.dine .text-acco {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 21.7pt;
+	top: 44%;
+	left: 44%;
+}
+
+.dine .bg-grallery:hover {
+	background: rgba(174,150,110, 0.4);
+}
+
+.dine .wrap-grallery {
+	margin: 0;
+}
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+		width: 100%;
+	}
+
+ }
+  /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+ 	.container{
+		width: 100%;
+	}
+	.dine .title-content{
+		width: 100%;
+	}
+	.dine .text-history {
+		left: -20%;
+		top: 24%;
+	}
+	.dine .text-arch {
+	   
+	    top: 43%;
+	    left: 37%;
+	}
+	.dine .text-mem {
+	   
+	    top: 48%;
+	    left: 30%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  .container{
+		width: 100%;
+	}
+	.dine .text-history {
+		left: -17%;
+		top: 30%;
+	}
+	.dine .text-arch {
+	   
+	    top: 50%;
+	    left: 42%;
+	}
+	.dine .text-mem {
+	   
+	    top: 50%;
+	    left: 35%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container{
+		width: 100%;
+	}
+	.dine .text-history {
+		left: 7%;
+		top: 38%;
+	}
+	.dine .text-arch {
+	   
+	    top: 50%;
+	    left: 50%;
+	}
+	.dine .text-mem {
+	   
+	    top: 50%;
+	    left: 45%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

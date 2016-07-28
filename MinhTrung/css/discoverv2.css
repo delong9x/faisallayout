@@ -1,0 +1,259 @@
+
+.discoverv2 {
+	background: #f2f2f2;
+}
+
+.discoverv2 .banner img{
+	width: 100%;
+	margin-bottom: 90px;
+}
+
+.discoverv2 .wrap-content {
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.discoverv2 .title-mansion {
+	font-size: 26pt;
+	font-weight: 400;
+	padding: 0 0 42px 0;
+	color: #2e2e2e;
+	width: 218px;
+    margin: auto; 
+}
+
+.discoverv2 .content-hr {
+	padding: 0 0 42px 0;
+}
+
+.discoverv2 .title-content {
+	font-size: 11.99pt;
+	font-style: italic;
+	padding: 0 0 40px 0;
+	color: #2e2e2e;
+	width: 480px;
+	margin: auto;
+}
+.discoverv2 .content-wrap {
+	width: 227px;
+    margin: auto;
+}
+
+.discoverv2 .paragraph-top {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 36px 0;
+	color: #2e2e2e;
+}
+
+.discoverv2 .paragraph-center {
+	font-size: 8pt;
+	font-weight: 400;
+	padding: 0 0 130px 0;
+	color: #fff;
+}
+
+
+.discoverv2 .grid-content {
+	padding: 0;
+}
+
+.discoverv2 .bg-grallery {
+	position: absolute;
+	background: rgba(16,33,24,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.discoverv2 .item-grallery {
+	padding: 0;
+	position: relative;
+}
+
+.discoverv2 .item-grallery img {
+	width: 100%;
+	height: auto;	
+}
+.discoverv2 .text-history img{
+	width: 200px;
+	margin:0 130px; 
+	padding: 10px;
+}
+.discoverv2 .text-history {
+	color: #fff;
+	position: absolute;
+	/*font-size: 21.7pt;*/
+	top: 41%;
+	left: 40%;
+	text-align: center;
+}
+.discoverv2 .text-history p{
+	font-size: 10.48pt;
+}
+.discoverv2 .text-history h3{
+	font-size: 21.56pt;
+}
+.discoverv2 .text-arch {
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	/*font-size: 21.7pt;*/
+	top: 43%;
+	left: 45%;
+	text-align: center;
+}
+.discoverv2 .text-arch p{
+	font-size: 10.48pt;
+}
+.discoverv2 .text-arch h3{
+	font-size: 21.56pt;
+}
+.discoverv2 .text-mem {
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	/*font-size: 21.7pt;*/
+	top: 50%;
+	left: 42%;
+	text-align: center;
+}
+.discoverv2 .text-mem p{
+	font-size: 10.49pt;
+}
+.discoverv2 .text-mem h3{
+	font-size: 21.57pt;
+}
+.discoverv2 .text-acco {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*font-size: 21.7pt;*/
+	top: 45%;
+	left: 45%;
+	text-align: center;
+}
+.discoverv2 .text-acco p{
+	font-size: 10.56pt;
+}
+.discoverv2 .text-acco h3{
+	font-size: 21.7pt;
+}
+.discoverv2 .bg-grallery:hover {
+	background: rgba(174,150,110, 0.4);
+}
+
+.discoverv2 .wrap-grallery {
+	margin: 0;
+}
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+		width: 100%;
+	}
+
+ }
+  /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+ 	.container{
+		width: 100%;
+	}
+	.discoverv2 .title-content{
+		width: 100%;
+	}
+	.discoverv2 .text-history {
+		left: 30%;
+		top: 30%;
+	}
+	.discoverv2 .text-arch {
+	   
+	    top: 36%;
+	    left: 39%;
+	}
+	.discoverv2 .text-mem {
+	   
+	    top: 36%;
+	    left: 37%;
+	}
+	.discoverv2 .text-acco{
+		top: 36%;
+	    left: 37%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  .container{
+		width: 100%;
+	}
+	.discoverv2 .text-history {
+		left: 38%;
+		top: 35%;
+	}
+	.discoverv2 .text-arch {
+	   
+	    top: 36%;
+	    left: 43%;
+	}
+	.discoverv2 .text-mem {
+	   
+	    top: 36%;
+	    left: 43%;
+	}
+	.discoverv2 .text-acco{
+		top: 36%;
+	    left: 45%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container{
+		width: 100%;
+	}
+	.discoverv2 .text-history {
+		left: 35%;
+		top: 35%;
+	}
+	.discoverv2 .text-arch {
+	   
+	    top: 36%;
+	    left: 40%;
+	}
+	.discoverv2 .text-mem {
+	   
+	    top: 36%;
+	    left: 40%;
+	}
+	.discoverv2 .text-acco{
+		top: 36%;
+	    left: 42%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

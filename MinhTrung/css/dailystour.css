@@ -1,0 +1,281 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+a,p,h1,h2,h3,h4,h5,h6,span,strong{
+	font-family: "adobe garamond pro";
+}
+.main{
+	/*max-width: 1200px;*/
+	width: 100%;
+	margin:auto;
+}
+.container{
+	width: 980px;
+}
+.head-img img{
+	width: 100%;
+}
+/*Daily Tour*/
+.content-dailytour{
+	background-color: #65819c;
+	text-align: center;
+}
+.content-dailytour .title{
+	padding-top: 78px;
+	margin-bottom: 28px;
+}
+.content-dailytour .title p{
+	margin: 0;
+	font-size: 26pt;
+	color: #ffffff;
+}
+.content-dailytour .under{
+	margin-bottom: 28px;
+}
+.content-dailytour .content-dt{
+	width: 325px;
+	margin: auto;
+}
+.content-dailytour .content-dt .content-head{
+	font-size: 10pt;
+	font-style: italic;
+	color: #ffffff;
+	font-weight: 400;
+}
+.content-dailytour .content-dt .content-foot{
+	font-size: 10pt;
+	font-style: italic;
+	color: #ffffff;
+	font-weight: 400;
+	padding-bottom: 109px;
+}
+.content-dailytour .content-dt .content-daily{
+	font-size: 8pt;
+	
+}
+.dailytour-times{
+	margin-top: 82px;
+	margin-bottom: 73px;
+	text-align: center;
+}
+.dailytour-times .title-dailytime p{
+	font-size: 14pt;
+	color: #ae966e;
+	font-style: italic;
+}
+.dailytour-times .content-dailytime{
+	font-size: 14pt;
+	color: #747474;
+	width: 400px;
+	text-align: left;
+}
+.dailytour-times .title-dailytime{
+	margin-bottom: 65px;
+}
+.dailytour-times .wrap-map{
+	margin-bottom: 90px;
+}
+.slider123{
+	margin-bottom: 105px;
+}
+
+.wrap-underslide{
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	font-size: 8pt;
+	color: #757575;
+	margin-bottom: 123px;
+}
+/*End Daily Tour*/
+ .daily-img .item-grallery {
+ padding: 0;
+ position: relative;
+}
+
+.daily-img .item-grallery img {
+ width: 100%;
+ height: auto;
+}
+
+.daily-img .text-event {
+ color: #fff;
+ position: absolute;
+ font-size: 21.7pt;
+ top: 44%;
+ left: 44%;
+ text-align: center;
+}
+.daily-img .text-event p{
+	font-size: 10pt;
+}
+.daily-img .text-event h3{
+	font-size: 14.4pt;
+}
+.daily-img .text-penang{
+	 color: #fff;
+	 position: absolute;
+	 font-size: 21.7pt;
+	 top: 44%;
+	 left: 44%;
+	 text-align: center;
+}
+.daily-img .text-penang p{
+	font-size: 10pt;
+}
+.daily-img .text-penang h3{
+	font-size: 14.4pt;
+}
+.daily-img .text-gallery{
+	 color: #fff;
+	 position: absolute;
+	 font-size: 21.7pt;
+	 top: 44%;
+	 left: 44%;
+	 text-align: center;
+}
+.daily-img .text-gallery p{
+	font-size: 10pt;
+}
+.daily-img .text-gallery h3{
+	font-size: 14.4pt;
+}
+.daily-img .bg {
+ position: absolute;
+ background: rgba(16,33,24,0.5);
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+}
+.daily-img .item-grallery .bg:hover {
+ background: rgba(174,150,110, 0.4);
+}
+/*slider*/
+.wrap-slider{
+	margin-bottom: 100px;
+}
+.pagenation_1 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.left, 
+.right {
+    padding: 0;
+    background: none;
+    border: none;
+}
+.right {
+    position: relative;
+    top: 0px;
+   left:-5px;
+    right: right;
+}
+.left:focus,
+.right:focuss
+ {
+    outline: none;
+}
+.slider .slider-item img {
+    width: 100%;
+    padding: 0 5px;
+    height: auto;
+    max-height: 530px;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+     .container{
+  	width: 100%;
+  	}
+     .dailytour-times .content-dailytime {
+	    width: 100%;
+	    text-align: center;
+	}
+	.dailytour-times .wrap-map .wp-img{
+		margin-bottom: 10px;
+	}
+	.dailytour-times .wrap-person .wp-img{
+		margin-bottom: 10px;
+	}
+	.content-dailytour .content-dt{
+		width: 100%;
+	}
+	.daily-img .text-event {
+		top:55%;
+		left: 48%;
+	}
+	.daily-img .text-penang{
+		top:55%;
+		left: 48%;
+	}
+	.daily-img .text-gallery{
+		top:55%;
+		left: 48%;
+	}
+
+ }
+  /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .container{
+  	width: 100%;
+  }
+  .dailytour-times .content-dailytime {
+	    width: 100%;
+	    text-align: center;
+	}
+	.content-dailytour .content-dt{
+		width: 100%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  	.container{
+  		width: 100%;
+  	}
+  	.content-dailytour .content-dt{
+		width: 100%;
+	}
+}
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container{
+  	width: 100%;
+  	}
+  	.content-dailytour .content-dt{
+		width: 100%;
+	}
+	.daily-img .text-event {
+		top:55%;
+		left: 48%;
+	}
+	.daily-img .text-penang{
+		top:55%;
+		left: 48%;
+	}
+	.daily-img .text-gallery{
+		top:55%;
+		left: 48%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
