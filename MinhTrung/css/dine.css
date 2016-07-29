@@ -78,26 +78,23 @@
 }
 .dine .text-history img{
 	width: 200px;
-	margin:0 130px; 
-	padding: 10px;
+	margin:0 70px; 
+	
 }
 .dine .text-history {
 	color: #fff;
 	position: absolute;
-	font-size: 21.7pt;
 	top: 35%;
 	left: 0%;
 	text-align: center;
+	width: 100%;
 }
-
 .dine .text-arch {
 	color: #fff;
 	position: absolute;
-	top: 20%;
-	font-size: 21.7pt;
 	top: 50%;
-	left: 42%;
 	text-align: center;
+	width: 100%;
 }
 .dine .text-arch p{
 	font-size: 7pt;
@@ -105,30 +102,7 @@
 .dine .text-arch h3{
 	font-size: 14.4pt;
 }
-.dine .text-mem {
-	color: #fff;
-	position: absolute;
-	top: 20%;
-	font-size: 21.7pt;
-	top: 50%;
-	left: 42%;
-	text-align: center;
-}
-.dine .text-mem p{
-	font-size: 7pt;
-}
-.dine .text-mem h3{
-	font-size: 14.4pt;
-}
-.dine .text-acco {
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	font-size: 21.7pt;
-	top: 44%;
-	left: 44%;
-}
+
 
 .dine .bg-grallery:hover {
 	background: rgba(174,150,110, 0.4);
@@ -144,7 +118,9 @@
     .container{
 		width: 100%;
 	}
-
+	.dine .text-history img{
+		margin: 0 100px;
+	}
  }
   /* ==========================================================================
    Responsive CSS Portrait Mobile
@@ -156,20 +132,11 @@
 	.dine .title-content{
 		width: 100%;
 	}
-	.dine .text-history {
-		left: -20%;
-		top: 24%;
+	.dine .text-history img{
+		margin: 0 ;
 	}
-	.dine .text-arch {
-	   
-	    top: 43%;
-	    left: 37%;
-	}
-	.dine .text-mem {
-	   
-	    top: 48%;
-	    left: 30%;
-	}
+	
+	
 }
 /* ==========================================================================
    Responsive CSS Landscape Tablet
@@ -178,20 +145,8 @@
   .container{
 		width: 100%;
 	}
-	.dine .text-history {
-		left: -17%;
-		top: 30%;
-	}
-	.dine .text-arch {
-	   
-	    top: 50%;
-	    left: 42%;
-	}
-	.dine .text-mem {
-	   
-	    top: 50%;
-	    left: 35%;
-	}
+	
+	
 }
 /* ==========================================================================
    Responsive CSS Portrait Tablet
@@ -200,19 +155,8 @@
 	.container{
 		width: 100%;
 	}
-	.dine .text-history {
-		left: 7%;
-		top: 38%;
-	}
-	.dine .text-arch {
-	   
-	    top: 50%;
-	    left: 50%;
-	}
-	.dine .text-mem {
-	   
-	    top: 50%;
-	    left: 45%;
+	.dine .text-history img{
+		margin: 0 100px;
 	}
 	
 }
