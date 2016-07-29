@@ -6,6 +6,7 @@
 a,p,h1,h2,h3,h4,h5,h6,span,strong{
 	font-family: "adobe garamond pro";
 }
+
 .main{
 	/*max-width: 1200px;*/
 	width: 100%;
@@ -17,7 +18,11 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 .head-img img{
 	width: 100%;
 }
+.dailytour-times p {
+		margin: 0 15px;
+	}
 /*Daily Tour*/
+
 .content-dailytour{
 	background-color: #65819c;
 	text-align: center;
@@ -100,48 +105,21 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
  height: auto;
 }
 
-.daily-img .text-event {
+.daily-img .text-history {
  color: #fff;
  position: absolute;
  font-size: 21.7pt;
- top: 44%;
- left: 44%;
+ top: 40%;
  text-align: center;
+ width: 100%;
 }
-.daily-img .text-event p{
+.daily-img .text-history p{
 	font-size: 10pt;
 }
-.daily-img .text-event h3{
+.daily-img .text-history h3{
 	font-size: 14.4pt;
 }
-.daily-img .text-penang{
-	 color: #fff;
-	 position: absolute;
-	 font-size: 21.7pt;
-	 top: 44%;
-	 left: 44%;
-	 text-align: center;
-}
-.daily-img .text-penang p{
-	font-size: 10pt;
-}
-.daily-img .text-penang h3{
-	font-size: 14.4pt;
-}
-.daily-img .text-gallery{
-	 color: #fff;
-	 position: absolute;
-	 font-size: 21.7pt;
-	 top: 44%;
-	 left: 44%;
-	 text-align: center;
-}
-.daily-img .text-gallery p{
-	font-size: 10pt;
-}
-.daily-img .text-gallery h3{
-	font-size: 14.4pt;
-}
+
 .daily-img .bg {
  position: absolute;
  background: rgba(16,33,24,0.5);
@@ -205,18 +183,7 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 	.content-dailytour .content-dt{
 		width: 100%;
 	}
-	.daily-img .text-event {
-		top:55%;
-		left: 48%;
-	}
-	.daily-img .text-penang{
-		top:55%;
-		left: 48%;
-	}
-	.daily-img .text-gallery{
-		top:55%;
-		left: 48%;
-	}
+	
 
  }
   /* ==========================================================================
@@ -233,6 +200,7 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 	.content-dailytour .content-dt{
 		width: 100%;
 	}
+	
 }
 /* ==========================================================================
    Responsive CSS Landscape Tablet
@@ -255,18 +223,7 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
   	.content-dailytour .content-dt{
 		width: 100%;
 	}
-	.daily-img .text-event {
-		top:55%;
-		left: 48%;
-	}
-	.daily-img .text-penang{
-		top:55%;
-		left: 48%;
-	}
-	.daily-img .text-gallery{
-		top:55%;
-		left: 48%;
-	}
+	
 }
 
 
