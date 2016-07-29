@@ -206,4 +206,18 @@ body{
 	.paragraph-fourth {
 		padding: 0 0 0 15px;
 	}
+	.arch-text-stay {
+		top: 40%;
+	    left: 42%;
+	}
+
+	.arch-text-mem {
+		top: 40%;
+	    left: 37%;
+	}
+
+	.arch-text-acco {
+		top: 40%;
+	    left: 37%;
+	}
 }

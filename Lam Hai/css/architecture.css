@@ -64,12 +64,16 @@ body{
 }
 
 .arch-content p {
-	padding: 0 0 40px 0;
+	padding: 0 15px 40px 15px;
 }
 
 .arch-post-image-long img {
 	width: 100%;
 	height: auto;
+}
+
+.arch-post-image-short {
+	padding: 0 15px 50px 15px;
 }
 
 .arch-post-image-short img {
@@ -178,16 +182,57 @@ body{
 
 .ui-icon-loading {
     background: url(http://code.jquery.com/mobile/1.1.0-rc.1/images/ajax-loader.png);
-    background-size: 46px 46px;
-    width:46px;
-    height:46px;
-    -webkit-transform: rotate(360deg);
-    -webkit-animation-name: spin;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count:  infinite;
-    -webkit-animation-timing-function: linear;
 }
-@-webkit-keyframes spin {
-    from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(360deg);}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	.acco-content-top {
+   	 	width: 242px;
+	}
+
+	.wrap-company .row .col-md-3 {
+		padding: 0 0 30px 0;
+	}
+
+	.wrap-channel .row .col-md-3 {
+		padding: 0 0 30px 0;
+	}
+ }
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.arch-text-stay {
+		top: 40%;
+	    left: 42%;
+	}
+
+	.arch-text-mem {
+		top: 40%;
+	    left: 37%;
+	}
+
+	.arch-text-acco {
+		top: 40%;
+	    left: 37%;
+	}
 }
