@@ -17,11 +17,11 @@
 }
 .discover-content .dis-title h2{
 	margin: 0;
-	font-size: 24pt;
+	font-size: 30pt;
 	color: #fff;
 }
 .dis-content p{
-	font-size: 8pt;
+	font-size: 14pt;
 	color: #cccccc;
 	width: 792px;
 	margin: auto;
@@ -40,13 +40,13 @@
 .discover-info .dis-title h2{
 	color: #ae966e;
 	margin: 0;
-	font-size: 24pt;
+	font-size: 30pt;
 }
 .discover-info .dis-titlechild{
 	margin-bottom: 20px;
 }
 .discover-info .dis-titlechild h3{
-	font-size: 16pt;
+	font-size: 22pt;
 	color: #ae966e;
 	text-align: left;
 	margin: 0;
@@ -58,6 +58,15 @@
 	margin-bottom: 50px;
 	text-align: justify;
 	color: #949392;
+	font-size: 14pt;
+}
+.discover-info .disinfo-content p{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 100%;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
 }
 .disinfo-img div{
 	margin-bottom: 10px;
@@ -82,16 +91,16 @@
 .daily-img .text-history {
  color: #fff;
  position: absolute;
- font-size: 21.7pt;
+ /*font-size: 21.7pt;*/
  top: 45%;
  text-align: center;
  width: 100%;
 }
 .daily-img .text-history p{
-	font-size: 10pt;
+	font-size: 16pt;
 }
 .daily-img .text-history h3{
-	font-size: 14.4pt;
+	font-size: 20.4pt;
 }
 
 

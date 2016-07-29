@@ -18,9 +18,9 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 .head-img img{
 	width: 100%;
 }
-.dailytour-times p {
+/*.dailytour-times p {
 		margin: 0 15px;
-	}
+	}*/
 /*Daily Tour*/
 
 .content-dailytour{
@@ -33,32 +33,33 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 }
 .content-dailytour .title p{
 	margin: 0;
-	font-size: 26pt;
+	font-size: 32pt;
 	color: #ffffff;
 }
 .content-dailytour .under{
 	margin-bottom: 28px;
 }
 .content-dailytour .content-dt{
-	width: 325px;
+	width: 450px;
 	margin: auto;
 }
 .content-dailytour .content-dt .content-head{
-	font-size: 10pt;
+	font-size: 16pt;
 	font-style: italic;
 	color: #ffffff;
 	font-weight: 400;
 }
 .content-dailytour .content-dt .content-foot{
-	font-size: 10pt;
+	font-size: 16pt;
 	font-style: italic;
 	color: #ffffff;
 	font-weight: 400;
 	padding-bottom: 109px;
 }
 .content-dailytour .content-dt .content-daily{
-	font-size: 8pt;
-	
+	font-size: 14pt;
+	text-align: center;
+	color: #cccccc;
 }
 .dailytour-times{
 	margin-top: 82px;
@@ -66,12 +67,12 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 	text-align: center;
 }
 .dailytour-times .title-dailytime p{
-	font-size: 14pt;
+	font-size: 20pt;
 	color: #ae966e;
 	font-style: italic;
 }
 .dailytour-times .content-dailytime{
-	font-size: 14pt;
+	font-size: 20pt;
 	color: #747474;
 	width: 400px;
 	text-align: left;
@@ -87,10 +88,10 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 }
 
 .wrap-underslide{
-	width: 40%;
+	width: 50%;
 	margin: auto;
 	text-align: center;
-	font-size: 8pt;
+	font-size: 14pt;
 	color: #757575;
 	margin-bottom: 123px;
 }
@@ -108,16 +109,16 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 .daily-img .text-history {
  color: #fff;
  position: absolute;
- font-size: 21.7pt;
+ /*font-size: 21.7pt;*/
  top: 40%;
  text-align: center;
  width: 100%;
 }
 .daily-img .text-history p{
-	font-size: 10pt;
+	font-size: 16pt;
 }
 .daily-img .text-history h3{
-	font-size: 14.4pt;
+	font-size: 20.4pt;
 }
 
 .daily-img .bg {
@@ -162,7 +163,9 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
     height: auto;
     max-height: 530px;
 }
-
+.ui-icon-loading {
+    background: url(http://code.jquery.com/mobile/1.1.0-rc.1/images/ajax-loader.gif);
+}
 /* ==========================================================================
    Responsive CSS Landscape Mobile
    ========================================================================== */
@@ -183,7 +186,9 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 	.content-dailytour .content-dt{
 		width: 100%;
 	}
-	
+	.daily-img .row{
+  		margin: 0;
+  	}
 
  }
   /* ==========================================================================
@@ -200,7 +205,21 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 	.content-dailytour .content-dt{
 		width: 100%;
 	}
-	
+	.dailytour-times .wrap-map {
+		margin-bottom: 40px;
+	}
+	.dailytour-times .wrap-map .wp-img{
+		margin-bottom: 10px;
+	}
+	.dailytour-times .wrap-person .wp-img{
+		margin-bottom: 10px;
+	}
+	.wrap-underslide {
+		width: 100%;
+	}
+	.daily-img .row{
+  		margin: 0;
+  	}
 }
 /* ==========================================================================
    Responsive CSS Landscape Tablet
@@ -209,9 +228,12 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
   	.container{
   		width: 100%;
   	}
-  	.content-dailytour .content-dt{
-		width: 100%;
-	}
+  	.dailytour-times .content-dailytime p{
+  		text-align: center;
+  	}
+  	.daily-img .row{
+  		margin: 0;
+  	}
 }
 /* ==========================================================================
    Responsive CSS Portrait Tablet
@@ -220,10 +242,14 @@ a,p,h1,h2,h3,h4,h5,h6,span,strong{
 	.container{
   	width: 100%;
   	}
-  	.content-dailytour .content-dt{
+  	
+	.dailytour-times .content-dailytime {
+		text-align: center;
 		width: 100%;
 	}
-	
+	.daily-img .row{
+  		margin: 0;
+  	}
 }
 
 
