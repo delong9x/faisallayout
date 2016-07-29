@@ -1,0 +1,308 @@
+body {
+	font-family: "adobe garamond pro";
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.main {
+	width: 100%;
+	background-color: #f1efef;
+}
+.container {
+	max-width: 1200px;
+}
+.img100 {
+	width: 100%;
+	height: auto;
+}
+.pd0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+.mr0{
+	margin-left: 0;
+	margin-right: 0;
+}
+.wrap-text {
+	text-align: center;
+	background-color: #f1efef;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.wrap-text h1 {
+	font-size: 50px;
+	color: red;	
+	margin-top: 0px;
+	margin-bottom: 37px;
+}
+.wrap-text #under-h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.wrap-text h3 {
+	color: #9b9a99;
+	font-size: 25px;
+	font-style: italic;
+	padding-left: 320px;
+    padding-right: 320px;
+    margin-bottom: 40px;
+}
+.wrap-text p {
+	font-size: 16.67px;
+	color: #9b9a99;
+	padding-left: 305px;
+    padding-right: 305px;
+    margin-bottom: 0px;
+}
+.wrap-menu-food {
+	background-color: #f1efef;
+	padding-bottom: 105px;
+}
+.wrap-menu-food h2 {
+	color: #c45b64;
+	font-size: 37.5px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+.wrap-menu-food hr {
+	border-color: #2e3192;
+	margin-bottom: 35px;
+	margin-top: 35px;
+	width: 30px;
+}
+.wrap-menu-food p {
+	font-size: 16.67px;
+	color: #949392;
+	margin-bottom: 23px;	
+}
+.wrap-menu-food #pOne {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.hover-img {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+}
+.hover-img:before {
+	content: "";
+	display: block;
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background: rgba(16,33,24,0.5);	
+}
+.hover-img:hover:before {
+	background: rgba(89,78,68,0.5);
+	display: block;
+	-moz-transition: background .3s linear;
+	 -webkit-transition: background .3s linear;
+	 -o-transition: background .3s linear;
+	 transition: background .3s linear;
+}
+.hover-img:hover p {
+	font-size: 32px;
+}
+.wrap-title {
+	position: absolute;
+	color: white;
+	font-size: 30.5px;
+	top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+ #myCarousel {
+ 	
+ 	left: 0;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+
+ .wrap-arrow {
+    text-align: center;
+    padding: 0 0 42px 0;
+}
+
+.arrow-right {    
+	position: relative;
+    top: 26px;
+    left: 47%;
+    width: 30px; 
+}
+
+.arrow-left {
+    position: relative;
+    top: 0px;
+    left: 45%;
+    width: 30px;
+}
+.img-food {
+	padding-left: 60px;
+}
+.wrap-text-food {
+	padding-right: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.wrap-text h1 {
+		
+	}
+
+	.wrap-text h3 {
+		padding-left: 100px;
+    	padding-right: 100px;
+	}
+	.wrap-text p {
+		padding-left: 145px;
+    	padding-right: 145px;
+	}
+	.arrow-left {
+		left: 44%;
+	}
+	.wrap-menu-food h2 {
+		font-size: 27px;
+	}
+	.img-food {
+		padding-left: 33px;
+	}
+	.wrap-menu-food p {
+		font-size: 10.5px;
+	}
+	#myCarousel {
+		left: 0;
+	}
+	.wrap-title {
+    	top: 20%;
+  	}
+}
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.wrap-menu-food p {
+		font-size: 21px;
+	}
+	.wrap-text {
+		padding-top: 10px;
+	}
+	.wrap-text h1 {
+		font-size: 40px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.wrap-text #under-h1 {
+		margin-top: 30px;
+	}
+	.wrap-text h3 {
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.wrap-text p {
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.arrow-left {
+		left: 35%;
+	}
+	.arrow-left img {
+		height: 40px;
+	}
+	.arrow-right {
+		top: 40px;
+	}
+	.arrow-right img {
+		height: 40px;
+	}
+	#myCarousel {
+		width: 100%;
+		left: 0;
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.img-food {
+		padding-left: 0;
+	}
+	.wrap-title {
+		top: 70px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.wrap-text h3 {
+		padding-left: 70px;
+    	padding-right: 70px;	
+	}
+	.wrap-text p {
+		padding-left: 100px;
+    	padding-right: 100px;
+	}
+	.arrow-right img {
+		height: 40px;
+	}
+	.arrow-left img {
+		height: 40px;
+	}
+	.arrow-right {
+		top: 40px;
+	}
+	.arrow-left {
+		left: 40%;
+	}
+	#myCarousel {
+		left: 0;
+		width: 100%;
+		padding-top: 15px;
+		padding-bottom: 0px;
+	}
+	.img-food {
+		padding-left: 15px;
+	}
+	.img-food img {
+		width: 100%;
+	}
+	.mr0 {
+		text-align: center;
+	}
+	.wrap-text-food {
+		padding-right: 15px;
+	}
+	.wrap-menu-food h2 {
+		font-size: 31.5px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.wrap-menu-food p {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.wrap-menu-food img {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.pagenation_1 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.left,
+.right {
+    padding: 0;
+    background: none;
+    border: none;
+    width: 27px;
+}
+.right  {
+    position: relative;
+    top: 0px;
+   left:-5px;
+    right: right;
+}
+.left:focus,
+.right:focus {
+    outline: none;
+}
