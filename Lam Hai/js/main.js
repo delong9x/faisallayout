@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     var width  = $(window).width();
     var temp = (20/100) * width;
     temp += 'px';
@@ -11,4 +11,4 @@ $(document).ready(function(){
 	 centerPadding: temp,
 	 slidesToShow: 1,
 	});
-});
+});*/
