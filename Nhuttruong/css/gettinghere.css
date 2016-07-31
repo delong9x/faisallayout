@@ -1,0 +1,78 @@
+.gethere-main {
+	background: #242493;
+}
+.get-here-banner .item img {
+	width: 100%;
+	height: auto;
+}
+.wrap-content {
+	padding: 80px 70px;
+	text-align: center;
+
+}
+.wrap-content .title-getHere {
+	font-size: 34pt;
+	font-weight: 400;
+	color: #fff;
+}
+.wrap-content .title-img-getHere {
+	margin-top:30px;
+}
+.wrap-content .paragraph-getHere {
+	line-height: 2;
+	margin-top: 40px;
+	color: #cccccc;
+	font-size: 12pt;
+
+}
+.getting-map {
+	padding: 13px 18px;
+	background: #f2f2f2;
+	height: 427px;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	.wrap-content {
+		padding: 80px 0;
+	}
+ 	.paragraph-getHere {
+		padding: 0 60px;
+	}
+ 	.getting-map {
+		height: auto;
+	}
+	
+ }
+ 
+ /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.wrap-content {
+		padding: 80px 0;
+	}
+	.getting-map {
+		height: auto;
+	}
+	.paragraph-getHere {
+		padding: 0;
+	}
+}

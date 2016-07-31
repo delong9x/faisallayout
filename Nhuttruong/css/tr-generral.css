@@ -1,0 +1,185 @@
+body,a,p,h1,h2,h3,h4,h5,h6 {
+	font-family: "adobe garamond pro";
+}
+body{ 
+	
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing:1px;
+}
+/*.container {
+	max-width: 968px;
+}*/
+.line::after, nav::after, .center::after, .box::after, .margin::after {clear: both;}
+.line::before, .line::after, nav::before, nav::after, .center::before, .center::after, .box::before, .box::after, .margin::before, .margin::after {
+	content: " ";
+	display: table;
+}
+.col-nonepadd {
+	padding: 0!important;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	
+}
+
+.header {
+	margin-bottom: 30px;
+}
+.header a {
+	font-size: 28pt;
+	color: #a68662;
+	
+}
+
+
+.feature-title{
+	color: #949392;
+	font-size: 16pt;
+	margin-top: 40px;
+	font-style: italic;
+
+}
+
+.feature-content {
+	margin-top: 40px;
+	color: #949392;
+}
+.feature-content p {
+	font-size: 12pt;
+	margin-bottom: 40px;
+}
+.feature-content p:last-child {
+	margin-bottom: 0;
+}
+.banner img {
+	width: 100%;
+	height: auto;
+	max-height: 580px;
+}
+
+
+.feature-content {
+	margin-top: 40px;
+	font-size: 10pt;
+	color: #949392;
+}
+.feature-content p {
+	margin-bottom: 40px;
+}
+.feature-content p:last-child {
+	margin-bottom: 0;
+}
+
+
+.pagenation_1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.left,
+.right {
+	padding: 0;
+	background: none;
+	border: none;
+}
+.right  {
+	position: relative;
+	top: 0px;
+    left:-7px;
+}
+.left:focus,
+.right:focus {
+	outline: none;
+}
+
+.bg-grallery {
+	position: absolute;
+	background: rgba(16,33,24,0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.grid-content .item-grallery a img {
+	width: 100%;
+	height: 100%;
+}
+.item-grallery-text {
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top:50%;
+	letter-spacing:1px;
+	/*left: 35%;*/
+}
+.item-grallery-text h4 {
+	margin: 0;
+	font-size: 10pt;
+	font-style: italic;
+}
+.item-grallery-text h3 {
+	margin: 0;
+	font-size: 18pt;
+	font-weight: 500;
+}
+.bg-grallery:hover {
+	background: rgba(174,150,110, 0.4);
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+}
+
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	
+
+ }
+ 
+ /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.item-grallery-text {
+		
+	}
+	.header a {
+		font-size: 20pt;
+		color: #a68662;
+		
+	}
+	.feature-title{
+	font-size: 14pt;
+
+	}	
+	
+}
+
+
+
+
+
+
+

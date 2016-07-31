@@ -1,0 +1,46 @@
+.main_1 {
+	background: #f2f2f2;
+	padding-bottom: 40px;
+}
+.wrap-content {
+	margin-top: 80px;
+}
+.wrap-content .feature-1{
+	margin-top: 70px;
+
+}
+.feature-1-img img {
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	max-height: 560px;
+}
+ .title {
+	text-align: center;
+	font-size: 34pt;
+	font-weight: 400;
+	color: #12286b;
+	padding-bottom: 40px;
+	background:  url('../img/logo_border.png') no-repeat bottom transparent;
+
+}
+.history-main .feature-content {
+	text-align: justify;
+}
+.history-main .pagenation_1{
+	margin-top:80px;
+} 
+
+.slider .slider-item:focus {
+	outline: none;
+}
+.slider .slider-item img,
+.slider_1 .slider-item img  {
+	width: 100%;
+	padding: 0 5px;
+	height: auto;
+	max-height:530px; 
+}
+.grid-content {
+	margin-top: 100px;
+}
